@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  
+  <title>Frontend Mentor | Notifications page</title>
+
+
+</head>
+<body>
+  <main class="main-container">
+
+    <!-- Notifications up part-->
+    <section class="notification-section">
+      <h1 class="notification">Notifications</h1>
+      <div id="number">3</div>
+      <button class="read-btn">Mark all as read</button>
+    </section>
+
+    <!-- Messages -->
+    <section class="messages-container">
+
+      <!-- 1º Person-->
+      <div class="people-container no-read">
+        <div class="img-container">
+          <img src="assets/images/avatar-mark-webber.webp" alt="mark webber image" class="people-image">
+        </div>
+        <div class="people">
+          <p class="people-text"><span class="span-btn" style="font-weight: 800;">Mark Webber</span> reacted to your recent post My first tournament today!<span class="red-circle"></span></p>
+          <p class="people-date">1m ago</p>
+        </div>
+      </div>
+
+      <!-- 2º Person-->
+      <div class="people-container no-read">
+        <div class="img-container">
+          <img src="assets/images/avatar-angela-gray.webp" alt="angela gray image" class="people-image">
+        </div>
+        <div class="people">
+          <p class="people-text"><span class="span-btn" style="font-weight: 800;">Angela Gray</span> followed you<span class="red-circle"></span></p>
+          <p class="people-date">5m ago</p>
+        </div>
+      </div>
+
+      <!-- 3º Person-->
+      <div class="people-container no-read">
+        <div class="img-container">
+          <img src="assets/images/avatar-jacob-thompson.webp" alt="jacob Thompson image" class="people-image">
+        </div>
+        <div class="people">
+          <p class="people-text"><span class="span-btn" style="font-weight: 800;">Jacob Thompson</span> has joined your group <span class="span-btn" style="font-weight: 800; color: rgb(7, 7, 175);">Chess Club</span><span class="red-circle"></span></p>
+          <p class="people-date">1 day ago</p>
+        </div>
+      </div>
+
+      <!-- 4º Person-->
+      <div class="people-container">
+        <div class="img-container">
+          <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="rizky hasanuddin image" class="people-image">
+        </div>
+        <div class="people">
+          <p class="people-text"><span class="span-btn" style="font-weight: 800;">Rizky Hasanuddin</span> sent you a private message<span class="red-circle red-circle-opacity"></span></p>
+          <p class="people-date">5 days ago</p>
+          <p class="message">Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+            I'm already having lots of fun and improving my game.
+          </p>
+        </div>
+      </div>
+
+      <!-- 5º Person-->
+      <div class="people-container ">
+        <div class="img-container">
+          <img src="assets/images/avatar-kimberly-smith.webp" alt="Kimberly image" class="people-image">
+        </div>
+        <div class="people">
+          <p class="people-text"><span class="span-btn" style="font-weight: 800;">Kimberly Smith</span> commented on your picture<span class="red-circle red-circle-opacity"></span></p>
+          <p class="people-date">1 week ago</p>        
+        </div>
+        <div class="picture-container">
+          <img src="assets/images/image-chess.webp" alt="chess image" class="chess-image span-btn">
+        </div>
+      </div>
+
+      <!-- 6º Person-->
+      <div class="people-container">
+        <div class="img-container">
+          <img src="assets/images/avatar-nathan-peterson.webp" alt="Nathan image" class="people-image">
+        </div>
+        <div class="people">
+          <p class="people-text"><span class="span-btn" style="font-weight: 800;">Nathan Peterson</span> reacted to your recent post <span class="span-btn" style="color: gray;">5 end-game strategies to increase your win rate</span><span class="red-circle red-circle-opacity"></span></p>
+          <p class="people-date">2 weeks ago</p>
+        </div>
+      </div>
+
+      <!-- 7º Person-->
+      <div class="people-container">
+        <div class="img-container">
+          <img src="assets/images/avatar-anna-kim.webp" alt="Anna image" class="people-image">
+        </div>
+        <div class="people">
+          <p class="people-text"><span class="span-btn" style="font-weight: 800;">Anna Kim</span> left the group Chess Club<span class="red-circle red-circle-opacity"></span></p>
+          <p class="people-date">2 weeks ago</p>
+        </div>
+      </div>
+    </section>
+  </main> 
+</body>
+<script src="js/main.js"></script>
+</html>

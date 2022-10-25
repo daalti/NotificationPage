@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+body{
+    background-color: white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+.notification-section{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.notification{
+    font-size: 1.2rem;
+}
+
+#number{
+    background-color: hsl(219, 71%, 37%);
+    color: white;
+    padding: 0.1rem 0.8rem 0.1rem 0.8rem;
+    border-radius: 0.5rem;
+}
+
+.read-btn{
+    background-color: white;
+    border: 0rem solid;
+    margin-left: auto; 
+    margin-right: 0;
+    color: grey;
+}
+
+.messages-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem
+}
+
+.people-container{
+    display: flex;    
+    padding: 0.7rem;
+    border-radius: 1rem;
+    gap: 1rem;
+}
+
+.no-read{
+    background-color: hsl(210, 60%, 98%);
+}
+
+.red-circle{
+    background-color: red;
+    display: inline-block;
+    width:0.5rem; 
+    height:0.5rem;
+    margin-left: 0.3rem;
+    border-radius: 50%; 
+}
+
+.red-circle-opacity{
+    opacity: 0%;
+}
+
+.people-image{
+    width: 2.8rem;
+}
+
+.people{
+    display: flex;
+    flex-direction: column;
+}
+
+.people-text{
+    font-size: 0.85rem;
+    margin-top: auto; 
+    margin-bottom: 0;
+}
+
+.people-date{
+    margin-top: 0.1rem; 
+    margin-bottom: auto;
+    font-size: 0.85rem;
+    color: rgb(165, 161, 161);
+}
+
+.message{
+    font-size: 0.85rem;
+    padding: 1rem;
+    border: 0.1rem solid rgb(204, 201, 201);
+    border-radius: 0.5rem;
+}
+
+.chess-image{
+    width: 2.5rem;
+}
+
+.read-btn:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+.span-btn:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+.message:hover{
+    cursor: pointer;
+    background-color: hsl(205, 33%, 90%);
+}
+
+.no-read:hover{
+    cursor: pointer;
+}
+
+@media (min-width: 60rem) {
+
+    body{
+        background-color: hsl(210, 60%, 98%);
+    }
+    .main-container{
+        border-radius: 1rem;
+        padding: 2rem;
+        background-color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 60rem;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+}
